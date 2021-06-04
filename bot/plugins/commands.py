@@ -57,7 +57,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url=https://t.me/marvelanddcjoin
+                                    '🏅Our Group🏅', url=https://t.me/marvelanddcjoin
                                 )
                         ]
                     ]
@@ -76,7 +76,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url=https://t.me/marvelanddcjoin
+                                    '🏅Our Group🏅', url=https://t.me/marvelanddcjoin
                                 )
                         ]
                     ]
@@ -89,7 +89,7 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/marvelanddcjoin')
+        InlineKeyboardButton('🏅Our Group🏅', url='https://t.me/marvelanddcjoin')
         InlineKeyboardButton('Source Code 🧾', url ='https://t.me/marvelanddcjoin')
     ],[
         InlineKeyboardButton('Support 🛠', url='https://t.me/marvelanddcjoin')
