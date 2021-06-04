@@ -23,8 +23,8 @@ async def start(bot, update):
         if (file_id or file_type) == None:
             return
         
-        caption = f"{file_name} \n @MalRok",
-        
+        caption = file_caption if file_caption != ("" or None) else
+
         if file_type == "document":
         
             await bot.send_document(
